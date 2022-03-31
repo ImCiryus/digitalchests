@@ -1,0 +1,35 @@
+{
+	"texture": "textures/entity/chest/cloud.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [-16, -16, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 16, 16, 16],
+					"uvNorth": [0, 0, 16, 16],
+					"uvEast": [0, 16, 16, 32],
+					"uvSouth": [16, 0, 32, 16],
+					"uvWest": [16, 16, 32, 32],
+					"uvUp": [16, 48, 0, 32],
+					"uvDown": [48, 0, 32, 16]
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

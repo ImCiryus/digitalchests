@@ -1,0 +1,57 @@
+{
+	"texture": "textures/entity/chest/server.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-16, -16, 0, 16, 16, 16],
+					"uvNorth": [48, 16, 64, 32],
+					"uvEast": [0, 16, 16, 32],
+					"uvSouth": [16, 16, 32, 32],
+					"uvWest": [32, 16, 48, 32],
+					"uvUp": [32, 16, 16, 0],
+					"uvDown": [48, 0, 32, 16]
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 1, 1, 1],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			]
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 1, 1, 1],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			]
+		}
+	]
+}
